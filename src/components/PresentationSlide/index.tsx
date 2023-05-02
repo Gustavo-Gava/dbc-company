@@ -5,8 +5,8 @@ import Image from "next/image";
 
 export const PresentationSlide = () => {
   return (
-    <div className="flex h-full items-center justify-center">
-      <div className="flex flex-1 flex-col gap-4 p-12">
+    <div className="flex h-full flex-col items-center justify-center lg:flex-row">
+      <div className="flex flex-1 flex-col justify-center gap-2 p-4 lg:gap-4 lg:p-12">
         <h3 className="font-semibold text-primary">Olá, Datunianos!</h3>
 
         <p>
@@ -25,7 +25,7 @@ export const PresentationSlide = () => {
         <ScrollDownMouseAnimated />
       </div>
 
-      <div className="flex flex-1 flex-col">
+      <div className="flex flex-1 flex-col justify-center p-4">
         <Image
           src="/developer_hello.svg"
           alt="developer"

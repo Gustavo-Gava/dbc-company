@@ -2,8 +2,8 @@ import Image from "next/image";
 
 export const ExperienceSlide = () => {
   return (
-    <div className="flex h-full items-center justify-center px-8">
-      <div className="flex flex-1 flex-col items-center justify-center p-12">
+    <div className="flex h-full flex-col items-center justify-center px-4 lg:flex-row lg:px-8">
+      <div className="flex flex-1 flex-col items-center justify-center p-4 lg:p-12">
         <Image
           src="/work_experience.svg"
           width={1920}
@@ -12,12 +12,12 @@ export const ExperienceSlide = () => {
         />
       </div>
 
-      <div className="flex flex-1 flex-col gap-4 text-left">
-        <h2 className="text-2xl font-semibold text-primary">
+      <div className="flex flex-1 flex-col gap-1 text-left lg:gap-4">
+        <h2 className="text-xl font-semibold text-primary lg:text-2xl">
           Minha experiência
         </h2>
         <div>
-          <h3 className="text-xl">
+          <h3 className="text-lg lg:text-lg">
             Codeby{" "}
             <span className="font-semibold text-primary">
               @Desenvolvedor React
@@ -25,7 +25,7 @@ export const ExperienceSlide = () => {
           </h3>
           <span className="text-xs">Junho 2022 - Maio 2023</span>
 
-          <ul className="text-base">
+          <ul className="text-sm lg:text-base">
             <li>
               Desenvolvimento web de e-commerces nacionais e internacionais em
               react e nextjs
@@ -43,7 +43,7 @@ export const ExperienceSlide = () => {
         </div>
 
         <div>
-          <h3>
+          <h3 className="text-lg lg:text-lg">
             Arkos Digital{" "}
             <span className="font-semibold text-primary">
               @Desenvolvedor React e React Native
@@ -51,7 +51,7 @@ export const ExperienceSlide = () => {
           </h3>
           <span className="text-xs">Setembro 2022 - Junho 2022</span>
 
-          <ul className="text-base">
+          <ul className="text-sm lg:text-base">
             <li>
               Desenvolvimento de aplicativos mobile com React Native, sendo
               responsável desde a configuração do ambiente de desenvolvimento,
