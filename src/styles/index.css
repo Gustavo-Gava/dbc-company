@@ -36,6 +36,11 @@
 .swiper-pagination {
   right: 0;
   left: unset !important;
+  background-color: #633ca144 !important;
+}
+
+.swiper-pagination-progressbar-fill {
+  background-color: #633ca1 !important;
 }
 
 // MOUSE ANIMATION ICON
@@ -56,7 +61,7 @@
   top: 10px;
   left: 50%;
   transform: translateX(-50%);
-  background-color: #333;
+  background-color: #633ca1;
   border-radius: 50%;
   opacity: 1;
   animation: wheel 2s infinite;

@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export const ObjectivesSlide = () => {
   return (
-    <div className="flex h-full items-center justify-center  lg:px-12">
+    <div className="flex h-full flex-col items-center justify-center p-4 lg:flex-row lg:px-12">
       <div className="flex flex-1">
         <Image src="./goals.svg" width={1920} height={1080} alt="goals" />
       </div>
