@@ -6,11 +6,9 @@ import { EffectCreative, Mousewheel, Pagination } from "swiper";
 
 import { PresentationSlide } from "~/components/PresentationSlide";
 import { GlassdoorSlide } from "~/components/GlassdoorSlide";
-
-import ChevronLeft from "../../public/chevron-left.svg";
+import { ObjectivesSlide } from "~/components/ObjectivesSlide";
+import { EndingSection } from "~/components/EndingSection";
 import { ExperienceSlide } from "~/components/ExperienceSlide";
-
-import Image from "next/image";
 
 import "swiper/css/navigation";
 import "swiper/css/pagination";
@@ -66,96 +64,11 @@ const Home: NextPage = () => {
           </SwiperSlide>
 
           <SwiperSlide>
-            <div className="flex h-full items-center justify-center  lg:px-12">
-              <div className="flex flex-1">
-                <Image
-                  src="./goals.svg"
-                  width={1920}
-                  height={1080}
-                  alt="goals"
-                />
-              </div>
-
-              <div className="flex flex-1 flex-col text-left">
-                <h3 className="font-semibold text-primary">
-                  Quais são meus objetivos?
-                </h3>
-
-                <div className="text-sm lg:text-base">
-                  <p>
-                    Meu objetivo no mundo da tecnologia é trabalhar em um local
-                    onde posso atuar criando soluções tecnológicas.
-                  </p>
-
-                  <p>
-                    Acredito que isso se encaixe perfeitamente com os objetivos
-                    da Datum, que acumula uma estrutura e experiência de mercado
-                    enorme.
-                  </p>
-
-                  <p>
-                    Tendo isso em vista, acho que posso contribuir muito com a
-                    Datum criando soluções inovadoras através da proatividade
-                    com foco em melhorar o ambiente de trabalho e as entregas
-                  </p>
-                </div>
-              </div>
-            </div>
+            <ObjectivesSlide />
           </SwiperSlide>
 
           <SwiperSlide>
-            <div className="flex h-full flex-col items-center justify-center p-4 lg:flex-row lg:p-12">
-              <div className="">
-                <p className="font-semibold text-primary">
-                  Espero que você que tenha gostado do meu currículo!
-                </p>
-
-                <p>
-                  Caso não for o candidato ideal para a Datum, espero que tenha
-                  sido uma experiência diferente e agradável para você!
-                </p>
-
-                <div>
-                  E claro, estou totalmente a disposição para conversar e
-                  demonstrar o que posso acrescentar na empresa.
-                </div>
-
-                <div>
-                  <p>Meus contatos:</p>
-
-                  <ul>
-                    <li>
-                      <a
-                        className="underline"
-                        href="mailto:gustavogavadev@gmail.com"
-                        target="_blank"
-                      >
-                        gustavogavadev@gmail.com
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        href="https://www.linkedin.com/in/gustavo-gava/"
-                        target="_blank"
-                        className="underline"
-                      >
-                        gustavo-gava
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-
-              <div className="flex h-full items-center justify-center">
-                <Image
-                  src="/firework.svg"
-                  alt="firework"
-                  width={1920}
-                  height={1080}
-                  className="h-auto w-full"
-                />
-              </div>
-            </div>
+            <EndingSection />
           </SwiperSlide>
         </Swiper>
       </main>
