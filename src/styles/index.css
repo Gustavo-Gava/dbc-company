@@ -46,8 +46,6 @@
   border: 3px solid #333;
   border-radius: 60px;
   position: relative;
-
-  background-color: red;
 }
 
 .mouse-animated-scroll-down::before {
