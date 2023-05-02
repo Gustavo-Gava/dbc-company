@@ -1,0 +1,80 @@
+.body {
+  overflow: hidden;
+}
+
+.logo {
+  display: block;
+  width: 150px;
+  height: 62px;
+  float: left;
+  margin: 10px 0 0;
+  overflow: hidden;
+  text-indent: -9999px;
+  background-image: url("https://datumit.com/wp-content/themes/datum/images/logo-datum.svg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+
+  background-position: 0 0;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-pagination {
+  right: 0;
+  left: unset !important;
+}
+
+// MOUSE ANIMATION ICON
+
+.mouse-animated-scroll-down {
+  width: 50px;
+  height: 90px;
+  border: 3px solid #333;
+  border-radius: 60px;
+  position: relative;
+
+  background-color: red;
+}
+
+.mouse-animated-scroll-down::before {
+  content: "";
+  width: 12px;
+  height: 12px;
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #333;
+  border-radius: 50%;
+  opacity: 1;
+  animation: wheel 2s infinite;
+  -webkit-animation: wheel 2s infinite;
+}
+
+@keyframes wheel {
+  to {
+    opacity: 0;
+    top: 60px;
+  }
+}
+
+@-webkit-keyframes wheel {
+  to {
+    opacity: 0;
+    top: 60px;
+  }
+}
