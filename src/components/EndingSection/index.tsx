@@ -1,8 +1,9 @@
 import Image from "next/image";
+import { SlideWrapper } from "../ui/SlideWrapper";
 
 export const EndingSection = () => {
   return (
-    <div className="flex h-full flex-col items-center justify-center p-4 lg:flex-row lg:p-12">
+    <SlideWrapper>
       <div className="">
         <p className="font-semibold text-primary">
           Espero que você que tenha gostado do meu currículo!
@@ -53,6 +54,6 @@ export const EndingSection = () => {
           className="h-auto w-full"
         />
       </div>
-    </div>
+    </SlideWrapper>
   );
 };

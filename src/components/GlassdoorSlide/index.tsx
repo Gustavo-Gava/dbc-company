@@ -15,7 +15,7 @@ export const GlassdoorSlide = () => {
         <p className="font-semibold text-primary">Awesome!!</p>
       </div>
 
-      <div className="">
+      <div className="flex lg:flex-1">
         <Image
           src="/datum_glassdoor_laptop.png"
           alt="datum"
