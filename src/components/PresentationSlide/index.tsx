@@ -3,11 +3,20 @@ import { ScrollDownMouseAnimated } from "../ScrollDownMouseAnimated";
 
 import Image from "next/image";
 import { SlideWrapper } from "../ui/SlideWrapper";
+import { ThemeSelect } from "../ui/ThemeSelect";
 
 export const PresentationSlide = () => {
   return (
     <SlideWrapper>
-      <div className="flex flex-1 flex-col justify-center gap-2 p-4 lg:gap-4 lg:p-12">
+      <div className="relative flex flex-1 flex-col justify-center gap-2 p-4 lg:gap-4 lg:p-12">
+        <header className="fixed left-0 right-0 top-0 m-auto max-w-[1400px]">
+          <div className="m-auto flex max-w-full items-center justify-between p-4">
+            <h3></h3>
+
+            <ThemeSelect />
+          </div>
+        </header>
+
         <h3 className="font-semibold text-primary">Olá, Datunianos!</h3>
 
         <p>

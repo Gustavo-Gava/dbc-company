@@ -2,19 +2,18 @@ import { type NextPage } from "next";
 import Head from "next/head";
 
 import { Swiper, SwiperSlide } from "swiper/react";
-import { EffectCreative, Mousewheel, Pagination } from "swiper";
+import { Mousewheel, Pagination } from "swiper";
 
 import { PresentationSlide } from "~/components/PresentationSlide";
 import { GlassdoorSlide } from "~/components/GlassdoorSlide";
 import { ObjectivesSlide } from "~/components/ObjectivesSlide";
 import { EndingSection } from "~/components/EndingSection";
 import { ExperienceSlide } from "~/components/ExperienceSlide";
+import { ContributionSlide } from "~/components/ContributionSlide";
 
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
-import { SlideWrapper } from "~/components/ui/SlideWrapper";
-import { ContributionSlide } from "~/components/ContributionSlide";
 
 const Home: NextPage = () => {
   return (
@@ -29,18 +28,10 @@ const Home: NextPage = () => {
           direction="vertical"
           pagination={{
             type: "progressbar",
-            clickable: true,
           }}
-          modules={[Mousewheel, Pagination, EffectCreative]}
-          effect={"creative"}
-          creativeEffect={{
-            prev: {
-              translate: [0, "-100%", 0],
-            },
-            next: {
-              translate: [0, "100%", 0],
-            },
-          }}
+          draggable={false}
+          preventClicks={false}
+          modules={[Mousewheel, Pagination]}
           mousewheel
         >
           <SwiperSlide>
