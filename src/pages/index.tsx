@@ -58,10 +58,6 @@ const Home: NextPage = () => {
           </SwiperSlide>
 
           <SwiperSlide>
-            <div></div>
-          </SwiperSlide>
-
-          <SwiperSlide>
             <EndingSection />
           </SwiperSlide>
         </Swiper>
