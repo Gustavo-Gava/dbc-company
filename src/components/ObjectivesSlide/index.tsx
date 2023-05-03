@@ -16,18 +16,20 @@ export const ObjectivesSlide = () => {
         <div className="text-sm lg:text-base">
           <p>
             Meu objetivo no mundo da tecnologia é trabalhar em um local onde
-            posso atuar criando soluções tecnológicas.
+            posso atuar criando soluções tecnológicas enquanto aprecio o
+            processo.
           </p>
 
           <p>
-            Acredito que isso se encaixe perfeitamente com os objetivos da
-            Datum, que acumula uma estrutura e experiência de mercado enorme.
+            Acredito que a RD Station é o lugar ideal para isso, tendo em vista
+            que é uma empresa extremamente consolidada que tem como objetivo
+            ajudar outras empresas a crescerem através de soluções tecnológicas.
           </p>
 
           <p>
-            Tendo isso em vista, acho que posso contribuir muito com a Datum
-            criando soluções inovadoras através da proatividade com foco em
-            melhorar o ambiente de trabalho e as entregas
+            Além disso, meu objetivo no dia a dia é crescer como profissional,
+            sendo referência técnica na empresa e ajudando a equipe a crescer
+            junto comigo.
           </p>
         </div>
       </div>

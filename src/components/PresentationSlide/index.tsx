@@ -17,14 +17,13 @@ export const PresentationSlide = () => {
           </div>
         </header>
 
-        <h3 className="font-semibold text-primary">Olá, Datunianos!</h3>
+        <h3 className="font-semibold text-primary">Olá, RDoers!</h3>
 
         <p>
           Me chamo Gustavo Gava, sou{" "}
-          <TextHighlighted>desenvolvedor front-end React</TextHighlighted> e
-          decidi ser <TextHighlighted>bold</TextHighlighted> e criar esse
-          currículo personalizado para a vaga de Desenvolvedor React na Datum
-          IT.
+          <TextHighlighted>desenvolvedor Front-end React</TextHighlighted> e
+          decidi demonstrar meu potencial e criar esse currículo personalizado
+          para a vaga de Desenvolvedor Javascript Pleno na RD Station
         </p>
 
         <p className="mb-4">

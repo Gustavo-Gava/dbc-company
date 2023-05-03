@@ -10,8 +10,8 @@ export const EndingSection = () => {
         </p>
 
         <p>
-          Caso não for o candidato ideal para a Datum, espero que tenha sido uma
-          experiência diferente e agradável para você!
+          Caso não for o candidato ideal para a RD Station, espero que tenha
+          sido uma experiência diferente e agradável para você!
         </p>
 
         <div>

@@ -7,17 +7,19 @@ export const ContributionSlide = () => {
   return (
     <SlideWrapper>
       <div className="flex flex-1 flex-col">
-        <TextHighlighted>Como posso contribuir com a Datum IT?</TextHighlighted>
+        <TextHighlighted>
+          Como posso contribuir com a RD Station?
+        </TextHighlighted>
 
         <div>
           <p>
-            Já tive experiência com as tecnologias utilizadas na Datum e no
-            serviço de consultoria, então entendo como é o fluxo de
+            Já tive experiência com as tecnologias utilizadas na RD Station e no
+            serviço de consultoria e Sass, então entendo como é o fluxo de
             desenvolvimento, tanto tecnicamente quanto nas etapas do produto.
           </p>
 
           <p>
-            Acredito que posso agregar muito com nesse estilo de trabalho, pois
+            Acredito que posso agregar muito nesse estilo de trabalho, pois
             tenho facilidade em me adaptar em diferentes projetos e tecnologias
             e estou sempre proativamente buscando formas de melhorar o que está
             sendo feito.
