@@ -7,17 +7,19 @@ import { ThemeSelect } from "../ui/ThemeSelect";
 
 export const PresentationSlide = () => {
   return (
-    <SlideWrapper>
-      <div className="relative flex flex-1 flex-col justify-center gap-2 p-4 lg:gap-4 lg:p-12">
-        <header className="fixed left-0 right-0 top-0 m-auto max-w-[1400px]">
-          <div className="m-auto flex max-w-full items-center justify-between p-4">
-            <h3></h3>
+    <SlideWrapper className="relative">
+      <header className="fixed left-0 right-0 top-0 m-auto max-w-[1400px]">
+        <div className="m-auto flex max-w-full items-center justify-between p-4">
+          <h3></h3>
 
-            <ThemeSelect />
-          </div>
-        </header>
+          <ThemeSelect />
+        </div>
+      </header>
 
-        <h3 className="font-semibold text-primary">Olá, RDoers!</h3>
+      <div className="relative order-3 flex flex-1 flex-col gap-2 p-4 text-sm lg:order-1 lg:gap-4 lg:p-12 lg:text-base">
+        <h3 className="text-lg font-semibold text-primary lg:text-xl">
+          Olá, RDoers!
+        </h3>
 
         <p>
           Me chamo Gustavo Gava, sou{" "}
@@ -34,7 +36,7 @@ export const PresentationSlide = () => {
         <ScrollDownMouseAnimated />
       </div>
 
-      <div className="flex flex-1 flex-col justify-center p-4">
+      <div className="order-2 flex flex-1 flex-col justify-center p-4">
         <Image
           src="/developer_hello.svg"
           alt="developer"

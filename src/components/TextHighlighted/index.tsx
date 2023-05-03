@@ -1,5 +1,18 @@
-import { type PropsWithChildren } from "react";
+import { type ReactNode } from "react";
+import { twMerge } from "tailwind-merge";
 
-export const TextHighlighted = ({ children }: PropsWithChildren) => {
-  return <span className="font-semibold text-primary">{children}</span>;
+interface TextHighlightedProps {
+  children: ReactNode;
+  className?: string;
+}
+
+export const TextHighlighted = ({
+  children,
+  className,
+}: TextHighlightedProps) => {
+  return (
+    <span className={twMerge("font-semibold text-primary", className)}>
+      {children}
+    </span>
+  );
 };

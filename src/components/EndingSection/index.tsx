@@ -4,10 +4,10 @@ import { SlideWrapper } from "../ui/SlideWrapper";
 export const EndingSection = () => {
   return (
     <SlideWrapper>
-      <div className="">
-        <p className="font-semibold text-primary">
+      <div className="text-sm lg:text-base">
+        <h3 className="text-lg font-semibold text-primary lg:text-xl">
           Espero que você que tenha gostado do meu currículo!
-        </p>
+        </h3>
 
         <p>
           Caso não for o candidato ideal para a RD Station, espero que tenha

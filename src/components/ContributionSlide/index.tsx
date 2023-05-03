@@ -6,8 +6,8 @@ import Image from "next/image";
 export const ContributionSlide = () => {
   return (
     <SlideWrapper>
-      <div className="flex flex-1 flex-col">
-        <TextHighlighted>
+      <div className="order-2 flex flex-1 flex-col text-left text-sm lg:text-center lg:text-base">
+        <TextHighlighted className="text-lg lg:text-xl">
           Como posso contribuir com a RD Station?
         </TextHighlighted>
 
