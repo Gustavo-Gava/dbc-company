@@ -13,6 +13,8 @@ import { ExperienceSlide } from "~/components/ExperienceSlide";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
+import { SlideWrapper } from "~/components/ui/SlideWrapper";
+import { ContributionSlide } from "~/components/ContributionSlide";
 
 const Home: NextPage = () => {
   return (
@@ -55,6 +57,10 @@ const Home: NextPage = () => {
 
           <SwiperSlide>
             <ObjectivesSlide />
+          </SwiperSlide>
+
+          <SwiperSlide>
+            <ContributionSlide />
           </SwiperSlide>
 
           <SwiperSlide>
