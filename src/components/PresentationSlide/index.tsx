@@ -2,10 +2,11 @@ import { TextHighlighted } from "../TextHighlighted";
 import { ScrollDownMouseAnimated } from "../ScrollDownMouseAnimated";
 
 import Image from "next/image";
+import { SlideWrapper } from "../ui/SlideWrapper";
 
 export const PresentationSlide = () => {
   return (
-    <div className="flex h-full flex-col items-center justify-center lg:flex-row">
+    <SlideWrapper>
       <div className="flex flex-1 flex-col justify-center gap-2 p-4 lg:gap-4 lg:p-12">
         <h3 className="font-semibold text-primary">Olá, Datunianos!</h3>
 
@@ -33,6 +34,6 @@ export const PresentationSlide = () => {
           height={1080}
         />
       </div>
-    </div>
+    </SlideWrapper>
   );
 };

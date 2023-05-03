@@ -1,8 +1,9 @@
 import Image from "next/image";
+import { SlideWrapper } from "../ui/SlideWrapper";
 
 export const ExperienceSlide = () => {
   return (
-    <div className="flex h-full flex-col items-center justify-center px-4 lg:flex-row lg:px-8">
+    <SlideWrapper>
       <div className="flex flex-1 flex-col items-center justify-center p-4 lg:p-12">
         <Image
           src="/work_experience.svg"
@@ -72,6 +73,6 @@ export const ExperienceSlide = () => {
           </ul>
         </div>
       </div>
-    </div>
+    </SlideWrapper>
   );
 };
