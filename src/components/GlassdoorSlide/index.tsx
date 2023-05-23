@@ -20,7 +20,7 @@ export const GlassdoorSlide = () => {
       <div className="flex lg:flex-1">
         <Image
           src="/glassdoor.png"
-          alt="RD Station"
+          alt="DOT"
           width={1920}
           height={1080}
           className="object-fit h-auto w-full"

@@ -18,14 +18,14 @@ export const PresentationSlide = () => {
 
       <div className="relative order-3 flex flex-1 flex-col gap-2 p-4 text-sm lg:order-1 lg:gap-4 lg:p-12 lg:text-base">
         <h3 className="text-lg font-semibold text-primary lg:text-xl">
-          Olá, RDoers!
+          Olá, Equipe da DOT!
         </h3>
 
         <p>
           Me chamo Gustavo Gava, sou{" "}
           <TextHighlighted>desenvolvedor Front-end React</TextHighlighted> e
           decidi demonstrar meu potencial e criar esse currículo personalizado
-          para a vaga de Desenvolvedor Javascript Pleno na RD Station
+          para a vaga de Desenvolvedor Front-end na DOT Digital Group
         </p>
 
         <p className="mb-4">

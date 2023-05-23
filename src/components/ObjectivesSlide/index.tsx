@@ -21,9 +21,9 @@ export const ObjectivesSlide = () => {
           </p>
 
           <p>
-            Acredito que a RD Station é o lugar ideal para isso, tendo em vista
-            que é uma empresa extremamente consolidada que tem como objetivo
-            ajudar outras empresas a crescerem através de soluções tecnológicas.
+            Acredito que a DOT é o local ideal, pois tem um objetivo claro de
+            unir a tecnologia com a educação, o que me trará um propósito maior
+            no meu dia a dia.
           </p>
 
           <p>

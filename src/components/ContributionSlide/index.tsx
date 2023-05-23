@@ -8,21 +8,22 @@ export const ContributionSlide = () => {
     <SlideWrapper>
       <div className="order-2 flex flex-1 flex-col text-left text-sm lg:text-center lg:text-base">
         <TextHighlighted className="text-lg lg:text-xl">
-          Como posso contribuir com a RD Station?
+          Como posso contribuir com a DOT?
         </TextHighlighted>
 
         <div>
           <p>
-            Já tive experiência com as tecnologias utilizadas na RD Station e no
-            serviço de consultoria e Sass, então entendo como é o fluxo de
-            desenvolvimento, tanto tecnicamente quanto nas etapas do produto.
+            Já tive experiência com as tecnologias utilizadas na DOT Digital
+            (HTML, CSS, Javascript, JQuery e framework React), metodologias OKRs
+            e busco conhecimento diariamente e constantemente, acreditando na
+            metodologia de Lifelong learning.
           </p>
 
           <p>
             Acredito que posso agregar muito nesse estilo de trabalho, pois
-            tenho facilidade em me adaptar em diferentes projetos e tecnologias
-            e estou sempre proativamente buscando formas de melhorar o que está
-            sendo feito.
+            tenho facilidade em me adaptar em diferentes projetos e tecnologias,
+            então mesmo que não tenho tido experiência diretamente com alguma
+            tecnologia, consigo aprender rapidamente com projetos existentes.
           </p>
         </div>
       </div>
