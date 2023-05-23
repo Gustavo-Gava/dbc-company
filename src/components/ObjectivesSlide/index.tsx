@@ -21,9 +21,10 @@ export const ObjectivesSlide = () => {
           </p>
 
           <p>
-            Acredito que a Ícaro Tech é o local ideal, pois é uma empresa que
-            terei oportunidades para transformar outras empresas através da
-            tecnologia e automação.
+            Acredito que a Pitang é o local ideal para isso, pois é um local que
+            terei a oportunidade de estar em contato com diversos clientes,
+            solucionando problemas de diversas naturezas, e ainda assim, podendo
+            trabalhar com tecnologias modernas e de ponta.
           </p>
 
           <p>

@@ -11,7 +11,7 @@ export const GlassdoorSlide = () => {
 
         <p>
           Gostaria de interromper minha apresentação para parabenizar a empresa
-          pelas ótimas avaliações e respostas no Glassdoor.
+          pelas ótimas avaliações e respostas no Glassdoor (100% 🤯)!!
         </p>
 
         <p className="font-semibold text-primary">Awesome!!</p>

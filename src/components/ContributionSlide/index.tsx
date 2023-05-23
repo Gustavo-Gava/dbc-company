@@ -8,14 +8,14 @@ export const ContributionSlide = () => {
     <SlideWrapper>
       <div className="order-2 flex flex-1 flex-col text-left text-sm lg:text-center lg:text-base">
         <TextHighlighted className="text-lg lg:text-xl">
-          Como posso contribuir com a Ícaro Tech?
+          Como posso contribuir com a Pitang?
         </TextHighlighted>
 
         <div>
           <p>
-            Já tive experiência com as tecnologias utilizadas na Ícaro Tech,
-            como React, testes, documentação e suporte para outros
-            desenvolvedores.
+            Já tive experiência no desenvolvimento mobile em react-native e
+            typescript, integrando com APIs rest. Também tenho experiência na
+            comunicação com o cliente sobre os projetos.
           </p>
 
           <p>
