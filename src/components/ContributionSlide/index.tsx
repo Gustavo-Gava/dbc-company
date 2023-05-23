@@ -8,15 +8,14 @@ export const ContributionSlide = () => {
     <SlideWrapper>
       <div className="order-2 flex flex-1 flex-col text-left text-sm lg:text-center lg:text-base">
         <TextHighlighted className="text-lg lg:text-xl">
-          Como posso contribuir com a DOT?
+          Como posso contribuir com a Ícaro Tech?
         </TextHighlighted>
 
         <div>
           <p>
-            Já tive experiência com as tecnologias utilizadas na DOT Digital
-            (HTML, CSS, Javascript, JQuery e framework React), metodologias OKRs
-            e busco conhecimento diariamente e constantemente, acreditando na
-            metodologia de Lifelong learning.
+            Já tive experiência com as tecnologias utilizadas na Ícaro Tech,
+            como React, testes, documentação e suporte para outros
+            desenvolvedores.
           </p>
 
           <p>
