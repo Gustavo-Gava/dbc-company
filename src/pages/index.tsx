@@ -41,9 +41,9 @@ const Home: NextPage = () => {
             <ExperienceSlide />
           </SwiperSlide>
 
-          <SwiperSlide>
+          {/* <SwiperSlide>
             <GlassdoorSlide />
-          </SwiperSlide>
+          </SwiperSlide> */}
 
           <SwiperSlide>
             <ObjectivesSlide />

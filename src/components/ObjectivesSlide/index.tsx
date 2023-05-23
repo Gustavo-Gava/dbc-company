@@ -21,10 +21,9 @@ export const ObjectivesSlide = () => {
           </p>
 
           <p>
-            Acredito que a Pitang é o local ideal para isso, pois é um local que
-            terei a oportunidade de estar em contato com diversos clientes,
-            solucionando problemas de diversas naturezas, e ainda assim, podendo
-            trabalhar com tecnologias modernas e de ponta.
+            Acredito que a 77Sol é o local ideal para isso, pois é um local que
+            terei a oportunidade de estar em contato com tecnologias novas e
+            ajudando diretamente os clientes.
           </p>
 
           <p>

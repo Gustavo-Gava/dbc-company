@@ -10,22 +10,20 @@ export const PresentationSlide = () => {
     <SlideWrapper className="relative">
       <header className="fixed left-0 right-0 top-0 m-auto max-w-[1400px]">
         <div className="m-auto flex max-w-full items-center justify-between p-4">
-          <h3></h3>
-
           <ThemeSelect />
         </div>
       </header>
 
       <div className="relative order-3 flex flex-1 flex-col gap-2 p-4 text-sm lg:order-1 lg:gap-4 lg:p-12 lg:text-base">
         <h3 className="text-lg font-semibold text-primary lg:text-xl">
-          Olá, Equipe da Pitang!
+          Olá, Equipe da 77Sol!
         </h3>
 
         <p>
           Me chamo Gustavo Gava, sou{" "}
-          <TextHighlighted>desenvolvedor Mobile React Native</TextHighlighted> e
+          <TextHighlighted>desenvolvedor Front-end React</TextHighlighted> e
           decidi demonstrar meu potencial e criar esse currículo personalizado
-          para a vaga de Desenvolvedor Front-end na Pitang
+          para a vaga de Desenvolvedor Front-end na 77Sol
         </p>
 
         <p className="mb-4">

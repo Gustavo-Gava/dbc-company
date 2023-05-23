@@ -47,7 +47,7 @@ export const ExperienceSlide = () => {
           <h3 className="text-lg lg:text-lg">
             Arkos Digital{" "}
             <span className="font-semibold text-primary">
-              @Desenvolvedor React e React Native
+              @Desenvolvedor React, React Native e Nodejs
             </span>
           </h3>
           <span className="text-xs">Setembro 2022 - Junho 2022</span>
