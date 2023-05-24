@@ -8,21 +8,23 @@ export const ContributionSlide = () => {
     <SlideWrapper>
       <div className="order-2 flex flex-1 flex-col text-left text-sm lg:text-center lg:text-base">
         <TextHighlighted className="text-lg lg:text-xl">
-          Como posso contribuir com a Pitang?
+          Como posso contribuir com a 77Sol?
         </TextHighlighted>
 
         <div>
           <p>
-            Já tive experiência no desenvolvimento mobile em react-native e
-            typescript, integrando com APIs rest. Também tenho experiência na
-            comunicação com o cliente sobre os projetos.
+            Tenho conhecimento consolidado em desenvolvimento web com React,
+            criando e integrando apis e seguindo boas práticas de
+            desenvolvimento.
           </p>
 
           <p>
-            Acredito que posso agregar muito nesse estilo de trabalho, pois
-            tenho facilidade em me adaptar em diferentes projetos e tecnologias,
-            então mesmo que não tenho tido experiência diretamente com alguma
-            tecnologia, consigo aprender rapidamente com projetos existentes.
+            Acredito que posso agregar muito nesse estilo de trabalho da 77Sol,
+            pois sou muito proativo e possuo fácil adaptabilidade em diversas
+            situações, tendo em vista que já foi exigido de mim na minha
+            experiência profissional. Com isso, acredito que posso contribuir e
+            muito com a criação e consolidação de processos, e de entregas com
+            ênfase em qualidade.
           </p>
         </div>
       </div>

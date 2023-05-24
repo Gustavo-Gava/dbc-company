@@ -22,8 +22,9 @@ export const ObjectivesSlide = () => {
 
           <p>
             Acredito que a 77Sol é o local ideal para isso, pois é um local que
-            terei a oportunidade de estar em contato com tecnologias novas e
-            ajudando diretamente os clientes.
+            terei a oportunidade de estar em contato com tecnologias novas
+            juntamente com um propósito de desenvolver soluções ecológicas que
+            tornará o mundo um lugar melhor.
           </p>
 
           <p>
