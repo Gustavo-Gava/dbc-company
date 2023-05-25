@@ -1,7 +1,11 @@
 import Image from "next/image";
 import { SlideWrapper } from "../ui/SlideWrapper";
 
-export const ObjectivesSlide = () => {
+interface ObjectivesSlideProps {
+  paragraphs: string[];
+}
+
+export const ObjectivesSlide = ({ paragraphs }: ObjectivesSlideProps) => {
   return (
     <SlideWrapper>
       <div className="flex flex-1">
@@ -9,29 +13,14 @@ export const ObjectivesSlide = () => {
       </div>
 
       <div className="flex flex-1 flex-col text-left">
-        <h3 className="font-semibold text-primary">
+        <h3 className="font-semibold text-primary lg:text-xl">
           Quais são meus objetivos?
         </h3>
 
         <div className="text-sm lg:text-base">
-          <p>
-            Meu objetivo no mundo da tecnologia é trabalhar em um local onde
-            posso atuar criando soluções tecnológicas enquanto aprecio o
-            processo.
-          </p>
-
-          <p>
-            Acredito que a 77Sol é o local ideal para isso, pois é um local que
-            terei a oportunidade de estar em contato com tecnologias novas
-            juntamente com um propósito de desenvolver soluções ecológicas que
-            tornará o mundo um lugar melhor.
-          </p>
-
-          <p>
-            Além disso, meu objetivo no dia a dia é crescer como profissional,
-            sendo referência técnica na empresa e ajudando a equipe a crescer
-            junto comigo.
-          </p>
+          {paragraphs.map((paragraph, index) => (
+            <p key={index}>{paragraph}</p>
+          ))}
         </div>
       </div>
     </SlideWrapper>

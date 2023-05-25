@@ -1,7 +1,10 @@
 import Image from "next/image";
 import { SlideWrapper } from "../ui/SlideWrapper";
+import { useEnterprise } from "~/context/EnterpriseContext";
 
 export const EndingSection = () => {
+  const { enterpriseName } = useEnterprise();
+
   return (
     <SlideWrapper>
       <div className="text-sm lg:text-base">
@@ -10,8 +13,8 @@ export const EndingSection = () => {
         </h3>
 
         <p>
-          Caso não for o candidato ideal para a 77Sol, espero que tenha sido uma
-          experiência diferente e agradável para você!
+          Caso não for o candidato ideal para a {enterpriseName}, espero que
+          tenha sido uma experiência diferente e agradável para você!
         </p>
 
         <div>

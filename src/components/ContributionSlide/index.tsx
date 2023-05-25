@@ -1,31 +1,32 @@
 import { TextHighlighted } from "../TextHighlighted";
 import { SlideWrapper } from "../ui/SlideWrapper";
 
+import { useEnterprise } from "../../context/EnterpriseContext";
+
 import Image from "next/image";
 
-export const ContributionSlide = () => {
+interface ContributionSlideProps {
+  firstParagraph: string;
+  secondParagraph: string;
+}
+
+export const ContributionSlide = ({
+  firstParagraph,
+  secondParagraph,
+}: ContributionSlideProps) => {
+  const { enterpriseName } = useEnterprise();
+
   return (
     <SlideWrapper>
       <div className="order-2 flex flex-1 flex-col text-left text-sm lg:text-center lg:text-base">
         <TextHighlighted className="text-lg lg:text-xl">
-          Como posso contribuir com a 77Sol?
+          Como posso contribuir com a {enterpriseName}?
         </TextHighlighted>
 
-        <div>
-          <p>
-            Tenho conhecimento consolidado em desenvolvimento web com React,
-            criando e integrando apis e seguindo boas práticas de
-            desenvolvimento.
-          </p>
+        <div className="text-sm lg:text-base">
+          <p>{firstParagraph}</p>
 
-          <p>
-            Acredito que posso agregar muito nesse estilo de trabalho da 77Sol,
-            pois sou muito proativo e possuo fácil adaptabilidade em diversas
-            situações, tendo em vista que já foi exigido de mim na minha
-            experiência profissional. Com isso, acredito que posso contribuir e
-            muito com a criação e consolidação de processos, e de entregas com
-            ênfase em qualidade.
-          </p>
+          <p>{secondParagraph}</p>
         </div>
       </div>
 

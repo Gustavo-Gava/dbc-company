@@ -14,7 +14,7 @@ export const ExperienceSlide = () => {
       </div>
 
       <div className="flex flex-1 flex-col gap-1 text-left lg:gap-4">
-        <h2 className="text-xl font-semibold text-primary lg:text-2xl">
+        <h2 className="text-xl font-semibold text-primary lg:text-xl">
           Minha experiência
         </h2>
         <div>

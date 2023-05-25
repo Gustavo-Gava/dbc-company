@@ -4,8 +4,11 @@ import { ScrollDownMouseAnimated } from "../ScrollDownMouseAnimated";
 import Image from "next/image";
 import { SlideWrapper } from "../ui/SlideWrapper";
 import { ThemeSelect } from "../ui/ThemeSelect";
+import { useEnterprise } from "~/context/EnterpriseContext";
 
 export const PresentationSlide = () => {
+  const { enterpriseName } = useEnterprise();
+
   return (
     <SlideWrapper className="relative">
       <header className="fixed left-0 right-0 top-0 m-auto max-w-[1400px]">
@@ -16,14 +19,14 @@ export const PresentationSlide = () => {
 
       <div className="relative order-3 flex flex-1 flex-col gap-2 p-4 text-sm lg:order-1 lg:gap-4 lg:p-12 lg:text-base">
         <h3 className="text-lg font-semibold text-primary lg:text-xl">
-          Olá, Equipe da 77Sol!
+          Olá, Equipe da {enterpriseName}!
         </h3>
 
         <p>
           Me chamo Gustavo Gava, sou{" "}
-          <TextHighlighted>desenvolvedor Front-end React</TextHighlighted> e
+          <TextHighlighted>Desenvolvedor Front-end React</TextHighlighted> e
           decidi demonstrar meu potencial e criar esse currículo personalizado
-          para a vaga de Desenvolvedor Front-end na 77Sol
+          para a vaga de Desenvolvedor Front-end na {enterpriseName}
         </p>
 
         <p className="mb-4">
