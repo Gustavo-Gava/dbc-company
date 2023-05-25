@@ -18,7 +18,7 @@ export const ContributionSlide = ({
 
   return (
     <SlideWrapper>
-      <div className="order-2 flex flex-1 flex-col text-left text-sm lg:text-center lg:text-base">
+      <div className="order-3 flex flex-1 flex-col text-left text-sm lg:order-1 lg:text-center lg:text-base">
         <TextHighlighted className="text-lg lg:text-xl">
           Como posso contribuir com a {enterpriseName}?
         </TextHighlighted>
@@ -30,7 +30,7 @@ export const ContributionSlide = ({
         </div>
       </div>
 
-      <div className="flex flex-1">
+      <div className="order-2 flex flex-1">
         <Image
           src="/work_together.svg"
           alt="working colleagues"

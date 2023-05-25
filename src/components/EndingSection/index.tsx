@@ -7,7 +7,7 @@ export const EndingSection = () => {
 
   return (
     <SlideWrapper>
-      <div className="text-sm lg:text-base">
+      <div className="order-3 text-sm lg:text-base">
         <h3 className="text-lg font-semibold text-primary lg:text-xl">
           Espero que você que tenha gostado do meu currículo!
         </h3>
@@ -48,7 +48,7 @@ export const EndingSection = () => {
         </div>
       </div>
 
-      <div className="flex h-full items-center justify-center">
+      <div className="order-2 flex h-full items-center justify-center">
         <Image
           src="/firework.svg"
           alt="firework"

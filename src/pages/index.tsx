@@ -18,14 +18,14 @@ import { useEnterprise } from "~/context/EnterpriseContext";
 
 const contributionSlideData = {
   firstParagraph:
-    "Tenho conhecimento consolidado em desenvolvimento web com React, criando e integrando apis e seguindo boas práticas de desenvolvimento.",
+    "Tenho conhecimento consolidado em desenvolvimento web com React com Typescript, tendo capacidade de integrar aplicações com APIs REST, escrever testes automatizados, versionamento de código e deploy de aplicações.",
   secondParagraph:
-    "Acredito que posso agregar muito nesse estilo de trabalho da 77Sol, pois sou muito proativo e possuo fácil adaptabilidade em diversas situações, tendo em vista que já foi exigido de mim na minhaexperiência profissional. Com isso, acredito que posso contribuir emuito com a criação e consolidação de processos, e de entregas comênfase em qualidade.",
+    "Acredito que posso agregar muito valor para a Company Hero, tendo em vista que sou uma pessoa de muita proatividade, estando disponível para ajudar a criação e consolidação de processos técnicos e padrões de código.",
 };
 
 const objectivesSlideData = [
   "Meu objetivo no mundo da tecnologia é trabalhar em um local onde posso atuar criando soluções tecnológicas enquanto aprecio o processo.",
-  "",
+  "Acredito que consigo ter uma performance maior quando estou em um ambiente com um propósito claro como a Company Hero de ajudar empreendedores e autônomos a terem sucesso em seus negócios.",
   "Além disso, meu objetivo no dia a dia é crescer como profissional,sendo referência técnica na empresa e ajudando a equipe a crescer junto comigo.",
 ];
 
@@ -57,9 +57,9 @@ const Home: NextPage = () => {
             <ExperienceSlide />
           </SwiperSlide>
 
-          {/* <SwiperSlide>
+          <SwiperSlide>
             <GlassdoorSlide />
-          </SwiperSlide> */}
+          </SwiperSlide>
 
           <SwiperSlide>
             <ObjectivesSlide paragraphs={objectivesSlideData} />
