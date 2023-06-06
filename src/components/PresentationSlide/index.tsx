@@ -24,8 +24,10 @@ export const PresentationSlide = () => {
 
         <p>
           Me chamo Gustavo Gava, sou{" "}
-          <TextHighlighted>Desenvolvedor Front-end React</TextHighlighted> e
-          decidi demonstrar meu potencial e criar esse currículo personalizado
+          <TextHighlighted>
+            Desenvolvedor Front-end React e React Native
+          </TextHighlighted>{" "}
+          e decidi demonstrar meu potencial e criar esse currículo personalizado
           para a vaga de Desenvolvedor Front-end na {enterpriseName}
         </p>
 
@@ -37,7 +39,7 @@ export const PresentationSlide = () => {
         <ScrollDownMouseAnimated />
       </div>
 
-      <div className="order-2 flex flex-1 flex-col justify-center p-4">
+      <div className="order-2 flex flex-col justify-center p-4">
         <Image
           src="/developer_hello.svg"
           alt="developer"

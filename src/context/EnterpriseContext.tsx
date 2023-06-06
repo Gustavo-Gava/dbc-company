@@ -10,7 +10,7 @@ const EnterpriseContext = createContext<EnterpriseContextType>(
 
 export const EnterpriseProvider = ({ children }: PropsWithChildren) => {
   return (
-    <EnterpriseContext.Provider value={{ enterpriseName: "Company Hero" }}>
+    <EnterpriseContext.Provider value={{ enterpriseName: "Digital Business" }}>
       {children}
     </EnterpriseContext.Provider>
   );
