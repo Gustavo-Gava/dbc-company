@@ -39,7 +39,7 @@ export const PresentationSlide = () => {
         <ScrollDownMouseAnimated />
       </div>
 
-      <div className="order-2 flex flex-col justify-center p-4">
+      <div className="order-2 flex flex-1 flex-col justify-center p-4">
         <Image
           src="/developer_hello.svg"
           alt="developer"
