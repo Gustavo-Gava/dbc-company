@@ -16,21 +16,20 @@ import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 import { useEnterprise } from "~/context/EnterpriseContext";
 
-const contributionSlideData = {
-  firstParagraph:
-    "Tenho conhecimento consolidado em desenvolvimento web com React com Typescript, tendo conhecimento sobre todos os conceitos do react bem consolidado, sendo capaz de criar aplicações com código limpo, escrever testes e criar componentes reutilizáveis e escaláveis.",
-  secondParagraph:
-    "Acredito que posso agregar muito valor para a Digital Business, pois sou muito engajado no dia a dia como desenvolvedor, estando disposto a contribuir com a criação e consolidação de processos, além de sempre estar buscando a melhor forma técnica de resolver os problemas que aparecem no dia a dia.",
-};
-
 const objectivesSlideData = [
   "Meu objetivo no mundo da tecnologia é trabalhar em um local onde posso atuar criando soluções tecnológicas enquanto aprecio o processo.",
-  "Acredito que consigo ter uma performance maior quando estou em um ambiente com um propósito claro como a Digital Business de ajudar diversos clientes com soluções tecnológicas, além de ter a oportunidade de crescimento profissional e pessoal.",
+  "Acredito que consigo ter uma performance maior quando estou em um ambiente com um propósito claro como a Conta Simples de ajudar diversos clientes com soluções tecnológicas para seus problemas financeiros.",
   "Além disso, meu objetivo no dia a dia é crescer como profissional, sendo referência técnica na empresa e ajudando a equipe a crescer junto comigo.",
 ];
 
 const Home: NextPage = () => {
   const { enterpriseName } = useEnterprise();
+
+  const contributionSlideData = {
+    firstParagraph:
+      "Tenho conhecimento consolidado em desenvolvimento web com React com Typescript, tendo conhecimento sobre todos os conceitos do react bem consolidado, sendo capaz de criar aplicações com código limpo, escrever testes e criar componentes reutilizáveis e escaláveis.",
+    secondParagraph: `Acredito que posso agregar muito valor para a ${enterpriseName}, pois sou muito engajado no dia a dia como desenvolvedor, estando disposto a contribuir com a criação e consolidação de processos, além de ser muito adaptável, característica importante para o dia-a-dia de uma Startup`,
+  };
 
   return (
     <>
@@ -57,9 +56,9 @@ const Home: NextPage = () => {
             <ExperienceSlide />
           </SwiperSlide>
 
-          <SwiperSlide>
+          {/* <SwiperSlide>
             <GlassdoorSlide />
-          </SwiperSlide>
+          </SwiperSlide> */}
 
           <SwiperSlide>
             <ObjectivesSlide paragraphs={objectivesSlideData} />

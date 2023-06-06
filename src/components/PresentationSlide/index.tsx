@@ -19,7 +19,7 @@ export const PresentationSlide = () => {
 
       <div className="relative order-3 flex flex-1 flex-col gap-2 p-4 text-sm lg:order-1 lg:gap-4 lg:p-12 lg:text-base">
         <h3 className="text-lg font-semibold text-primary lg:text-xl">
-          Olá, Equipe da {enterpriseName}!
+          Olá, Simplers!
         </h3>
 
         <p>
